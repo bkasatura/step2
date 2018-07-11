@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>step2-1</title>
+<style>
+		#res{
+		margin-top: -9px;
+		padding-bottom: 15px;
+		margin-left: 35px;
+		}
+		#bar{
+			background-color: #283E4A;
+		}	
+		#icon{
+			color: white;
+		}
+		#mavi{
+			color: #0073B1;
+			font-size: 15px;
+		}
+		#resim{
+			width: 100px;
+			height: 130px;
+		}
+		#tepe{
+			padding-left: 0px;
+			width: 1320px;
+		}
+		#box{
+			border:3px;
+		}
+		#yazi{
+			margin-left: 25px;
+			font-family: arial;
+			font-size: 30px;
+			border-bottom: 2px solid #e5e5e5;
+		}
+		#yazi1{
+			margin-top: 5px;
+			font-family: arial;
+			font-size: 20px;
+		}
+		#textbox{
+			margin-left: 23px;
+		}
+		#arama{
+			width: 300px;
+			margin-top: 30px;
+		}
+		#buton1{
+			padding-left: 20px;
+			margin-left: 800px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="tepe" class="container-fluid">
+	<header>	
+		<nav class="navbar navbar-default">
+	    			<div class="navbar-header">
+	      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        				<span class="sr-only">Toggle navigation</span>
+	       					<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+	      				</button>
+	      				<a id="res" class="navbar-brand" href="#"><img src="https://vignette.wikia.nocookie.net/the-most-popular-girls-in-school/images/1/1a/Linkedin.png/revision/latest?cb=20150730204727" width="35px" height="35px" alt=""></a>
+	    			</div>
+				    <div id="bar" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  					
+				      	<ul class="nav navbar-nav navbar-right">
+				       		<li> <a id="icon" href="#">Müşteri Listele</a></li>
+				         	<li> <a id="icon" href="#">Müşteri Ekle</a></li>
+				         	<li> <a id="icon" href="#">Müşteri Ara</a></li>
+				            <li> <a id="icon" href="#">Müşteri Güncelle</a></li>
+				            <li> <a id="icon" href="#">Müşteri Sil</a></li>
+				      	</ul>
+				    </div>
+			<div class="row">	
+				<div class="container-fluid">
+				    <input id="arama" type="text" placeholder="Arama Yap">
+				    <button>Müşteri Ara</button>
+				    <a id="buton1" href="#" class="btn btn-primary" role="button">Müşteri Ekle</a>
+					<table class="table">
+					  <thead class="thead-dark">
+					    <tr>
+					      <th scope="col">#</th>
+					      <th scope="col">First</th>
+					      <th scope="col">Last</th>
+					      <th scope="col">Handle</th>
+					      <th scope="col">Last</th>
+					      <th scope="col">Handle</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>Mark</td>
+					      <td>Otto</td>
+					      <td>@mdo</td>
+					      <td>Otto</td>
+					      <td>@mdo</td>
+					      <td><a href="#" class="btn btn-primary" role="button">Müşteri Güncelle</a> <a href="#" class="btn btn-primary" role="button">Müşteri Sil</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td>Jacob</td>
+					      <td>Thornton</td>
+					      <td>@fat</td>
+					      <td>Otto</td>
+					      <td>@mdo</td>
+					      <td><a href="#" class="btn btn-primary" role="button">Müşteri Güncelle</a> <a href="#" class="btn btn-primary" role="button">Müşteri Sil</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td>Larry</td>
+					      <td>the Bird</td>
+					      <td>@twitter</td>
+					      <td>Otto</td>
+					      <td>@mdo</td>
+					      <td><a href="#" class="btn btn-primary" role="button">Müşteri Güncelle</a> <a href="#" class="btn btn-primary" role="button">Müşteri Sil</a></td>
+					    </tr>
+					  </tbody>
+					</table>
+				</div>	
+			</div>
+</div>
+		</nav>
+	</header>
+</div>
+<footer>
+	<div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+  </div>
+</footer>
+	
+</body>
+</html>
